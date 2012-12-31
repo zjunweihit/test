@@ -1,4 +1,4 @@
 
 This file is saved as utf-8 in windows.
 
-Õâ¸öÎÄ¼şÊÇÒÔUTF-8¸ñÊ½±£´æµÄ¡£
+è¿™ä¸ªæ–‡ä»¶æ˜¯ä»¥UTF-8æ ¼å¼ä¿å­˜çš„ã€‚
