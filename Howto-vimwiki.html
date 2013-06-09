@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>work-wiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<h1 id="toc_1">vimwiki</h1>
+
+
+<h1 id="toc_2">chapter 1</h1>
+<h2 id="toc_2.1">chapter 2</h2>
+<h3 id="toc_2.1.1">chapter 3</h3>
+<h4 id="toc_2.1.1.1">chapter 4</h4>
+
+<h1 id="toc_3">Toggleable list of todo items</h1>
+<ul>
+<li class="done1">
+Toggle list item on/off.
+
+<ul>
+<li class="done0">
+Simple toggling between [ ] and [X].
+
+<li class="done4">
+All of a list's subitems should be toggled on/off appropriately.
+
+<li class="done0">
+Toggle child subitems only if current line is list item.
+
+<li class="done0">
+Parent list item should be toggled depending on it's child items.
+
+</ul>
+<li class="done0">
+Make numbered list items toggleable too.
+
+<li class="done0">
+Add highlighting to list item boxes.
+
+<li class="done0">
+Add [ ] to the next list item created using o, O or &lt;CR&gt;.
+
+</ul>
+
+<p>
+Parent items could be changed when their child items change. The symbol
+between [ ] depends on the percentage of toggled child items (see also
+|g:vimwiki_listsyms|): &gt;
+</p>
+
+<ul>
+<li class="done0">
+-- 0%
+
+<li class="done1">
+-- 1-33%
+
+<li class="done2">
+-- 34-66%
+
+<li class="done3">
+-- 67-99%
+
+<li class="done4">
+-- 100%
+
+</ul>
+    
+<ol>
+<li>
+unzip plug-in packet
+
+<ul>
+<li>
+Usually we can get 4 folder
+
+<li>
+doc:        *.txt, *.cnx(usually for Chinese)
+
+<li>
+ftplugin:   *.vim
+
+<li>
+plugin:     *.vim
+
+<li>
+syntax:     *.vim
+
+<li>
+then copy them to the directory correspondingly
+
+</ul>
+<li>
+Install help tags
+<pre  &gt;>
+    Install plugin specification document with command
+    :helptags &lt;PATH&gt;
+    &lt;PATH&gt; means the path of Vim specification document
+    eg.
+    :helptags d:\tools\Vim\vim73\doc
+</pre>
+
+</ol>
+
+<table>
+<tr>
+<td>
+year
+</td>
+<td>
+month
+</td>
+<td>
+day
+</td>
+</tr>
+<tr>
+<td>
+------+-------+-----
+</td>
+</tr>
+<tr>
+<td>
+1900
+</td>
+<td>
+10
+</td>
+<td>
+27
+</td>
+</tr>
+<tr>
+<td>
+1923
+</td>
+<td>
+9
+</td>
+<td>
+2
+</td>
+</tr>
+<tr>
+<td>
+1980
+</td>
+<td>
+2
+</td>
+<td>
+18
+</td>
+</tr>
+<tr>
+<td>
+1922
+</td>
+<td>
+3
+</td>
+<td>
+10
+</td>
+</tr>
+<tr>
+<td>
+1923
+</td>
+<td>
+32
+</td>
+<td>
+23
+</td>
+</tr>
+</table>
+
+
+<p>
+This is first paragraph &lt;/br&gt;
+with two lines.
+<hr />
+</p>
+
+<pre>
+    void fun()
+    {
+        printk("kk%d", it);
+
+        return 0;
+    }
+</pre>
+
+<ul>
+<li>
+hello world
+
+<ul>
+<li>
+get it
+
+</ul>
+<li>
+do it as you like
+
+<ol>
+<li>
+must learn it well
+
+<li>
+so do you
+
+</ol>
+</ul>
+
+<pre>
+fdafdasf
+daf
+da
+fdas
+</pre>
+
+</body>
+</html>
